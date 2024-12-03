@@ -6,3 +6,5 @@ let () =
   Histeria.exec "inputs/input01a.txt";
   print_endline "Day 2. Red-Nosed Reports:"; 
   Reports.exec "inputs/input02a.txt";
+  print_endline "Day 3. Mull It Over:"; 
+  Mull_it_over.exec "inputs/input03a.txt";
