@@ -20,4 +20,4 @@ let () =
   match last args  with
   | "all" -> Array.iter ~f:exec tasks
   | "last" -> exec (last tasks)
-  | _ -> print_endline "Unknown argument"
+  | _ -> print_endline "Use 'all' to run all tasks and 'last' to run the last task"
