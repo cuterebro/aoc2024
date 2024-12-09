@@ -14,6 +14,7 @@ let () =
     {title = "Day 4. Ceres Search";       run = (fun () -> Ceres.exec "inputs/input04a.txt")};
     {title = "Day 5. Print Queue";        run = (fun () -> Print_queue.exec "inputs/input05a.txt")};
     {title = "Day 6. Guard Gallivant";    run = (fun () -> Gallivant.exec "inputs/input06a.txt")};
+    {title = "Day 7. Bridge Repair";      run = (fun () -> Brige.exec "inputs/input07a.txt")};    
   |] in
   let exec task = print_endline task.title; task.run() in
 
